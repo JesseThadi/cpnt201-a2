@@ -11,7 +11,7 @@
   <header class="header">
     <nav>
       <ul class="nav-bar"> <!--Element img not allowed as child of element ul in this context.-->
-        <a href="#" ><img src="assets/logo/logo.png" alt="camera" class="logo"></a>
+        <li><img src="assets/logo/logo.png" alt="camera" class="logo"></li>
         <li><a href="#" class="nav-bar">Home</a></li>
         <li><a href="#" class="nav-bar">Services</a></li>
         <li><a href="#" class="nav-bar">Images</a></li>
@@ -20,7 +20,7 @@
       </ul>
     </nav>
     <div class="container">
-      <h1>Click</h1>
+      <h1>Klick</h1>
     </div>
   </header>
 
@@ -28,20 +28,23 @@
     <section class="img-container"> <!--When the srcset attribute has any image candidate string with a width descriptor, the sizes attribute must also be present.-->
       <img src="assets/images/sm/img-1.jpg"
            width="500" height="250"
+           sizes="100vw"
            alt="tiny mushrooms"
            srcset="assets/images/sm/img-1.jpg 500w,
                    assets/images/md/img-1.jpg 1024w,
                    assets/images/lg/img-1.jpg 1920w" loading="lazy">
 
       <img src="assets/images/sm/img-2.jpg"
-           width="500" height="250" 
+           width="500" height="250"
+           sizes="100vw"
            alt="city"
            srcset="assets/images/sm/img-2.jpg 500w,
                    assets/images/md/img-2.jpg 1024w,
                    assets/images/lg/img-2.jpg 1920w" loading="lazy">
       
       <img src="assets/images/sm/img-3.jpg"
-           width="500" height="250" 
+           width="500" height="250"
+           sizes="100vw" 
            alt="whale"
            srcset="assets/images/sm/img-3.jpg 500w,
                    assets/images/md/img-3.jpg 1024w,
