@@ -4,13 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>cpnt201-a2</title>
 </head>
 <body>
   <header class="header">
     <nav>
-      <ul class="nav-bar">
-        <a href="#" class="logo"><img src="assets/logo/logo.png" alt="camera"></a>
+      <ul class="nav-bar"> <!--Element img not allowed as child of element ul in this context.-->
+        <a href="#" ><img src="assets/logo/logo.png" alt="camera" class="logo"></a>
         <li><a href="#" class="nav-bar">Home</a></li>
         <li><a href="#" class="nav-bar">Services</a></li>
         <li><a href="#" class="nav-bar">Images</a></li>
@@ -24,23 +25,23 @@
   </header>
 
   <main>
-    <section class="img-container">
+    <section class="img-container"> <!--When the srcset attribute has any image candidate string with a width descriptor, the sizes attribute must also be present.-->
       <img src="assets/images/sm/img-1.jpg"
-           width="" height=""
+           width="500" height="250"
            alt="tiny mushrooms"
            srcset="assets/images/sm/img-1.jpg 500w,
                    assets/images/md/img-1.jpg 1024w,
                    assets/images/lg/img-1.jpg 1920w" loading="lazy">
 
       <img src="assets/images/sm/img-2.jpg"
-           width="" height="" 
+           width="500" height="250" 
            alt="city"
            srcset="assets/images/sm/img-2.jpg 500w,
                    assets/images/md/img-2.jpg 1024w,
                    assets/images/lg/img-2.jpg 1920w" loading="lazy">
       
       <img src="assets/images/sm/img-3.jpg"
-           width="" height="" 
+           width="500" height="250" 
            alt="whale"
            srcset="assets/images/sm/img-3.jpg 500w,
                    assets/images/md/img-3.jpg 1024w,

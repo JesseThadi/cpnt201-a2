@@ -27,7 +27,7 @@
   padding: 5px;
 }
 
-.logo img{
+.logo {
   display: flex;
   justify-content: flex-start;
   max-width: 15%;
@@ -56,6 +56,7 @@
 section img {
   display: block;
   width: 100%;
+  height: auto;
   margin: 3rem auto;
   aspect-ratio: 2 / 1;
 }
