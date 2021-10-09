@@ -6,7 +6,7 @@ Jesse Thadi
 
 # GH repo and pages
 https://github.com/JesseThadi/cpnt201-a2.git
-
+https://jessethadi.github.io/cpnt201-a2/
 
 # Attributions
 ## Images
